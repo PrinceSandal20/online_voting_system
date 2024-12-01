@@ -10,7 +10,7 @@
 </head>
 <body>
        <div class="head">
-        <h1>Cast Your Vote</h1>
+        <h1>cast your vote</h1>
         </div>
        <form action="RegisterVoteServlet" method="post">
 	    <label>Username:</label>
