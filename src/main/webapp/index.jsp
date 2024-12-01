@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="header">
-        <h1>Welcome to the Online Voting System</h1>
+        <h1>Welcome ! to the Online Voting System</h1>
     </div>
 
     <div class="nav">
