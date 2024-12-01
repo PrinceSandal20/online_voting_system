@@ -1,0 +1,212 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header Styling */
+.header {
+    background: #4caf50;
+    color: white;
+    padding: 10px 0; /* Reduced padding for a thinner header */
+    text-align: center;
+    font-size: 1.8em; /* Slightly smaller font size for a more compact look */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.head {
+    background: #4caf50;
+    color: white;
+    padding: 1px 0; /* Reduced padding for a thinner header */
+    text-align: center;
+    font-size: 1.2em; /* Slightly smaller font size for a more compact look */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Form Styling */
+form {
+    margin: 30px auto;
+    padding: 20px;  /* Reduced padding for a more compact form */
+    max-width: 400px;  /* Reduced width for a smaller form */
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #4caf50; /* Sharp edges with a visible border */
+    border-radius: 0; /* Remove rounded corners for sharp edges */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+}
+
+form:hover {
+    transform: scale(1.05);
+    border-color: #388e3c; /* Change border color on hover for a dynamic effect */
+}
+
+
+/* Input Fields (unchanged) */
+form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+form input:focus, form select:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+}
+
+/* Submit Button (unchanged) */
+form button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1em;
+    font-weight: bold;
+    background: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background: #45a049;
+    transform: scale(1.1);
+}
+
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Navigation Styling */
+.nav {
+    text-align: center;
+    margin: 50px;
+}
+
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(45deg, #4caf50, #81c784);
+    padding: 15px 30px;
+    margin: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav a:hover {
+    background: linear-gradient(45deg, #388e3c, #66bb6a);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nav a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.nav a:hover::after {
+    left: 100%;
+}
+
+.nav a span {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 1em;
+}
+
+table th {
+    background: #4caf50;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+table tr {
+    background: #ffffff; /* Uniform background color for all rows */
+    transition: background 0.3s ease;
+}
+
+table tr:hover {
+    background: #d4edda; /* Light green hover effect */
+    cursor: pointer;
+}
+
+table td {
+    border-bottom: 1px solid #ddd;
+}
+
+table th:first-child, table td:first-child {
+    border-left: none;
+}
+
+table th:last-child, table td:last-child {
+    border-right: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    table th, table td {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+}
