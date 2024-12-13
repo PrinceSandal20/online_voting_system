@@ -40,74 +40,74 @@ The **Online Voting System** is a web application designed using **JSP (Java Ser
 
 2. Import Project:
 
--Open Eclipse IDE.
+- Open Eclipse IDE.
 
--Go to File > Import > Existing Projects into Workspace.
+- Go to File > Import > Existing Projects into Workspace.
 
--Select the cloned repository folder.
+- Select the cloned repository folder.
 
 3. Database Setup:
 
--Open MySQL Workbench or any database client.
+- Open MySQL Workbench or any database client.
 
--Create a database (e.g., online_voting).
+- Create a database (e.g., online_voting).
 
--Import the provided SQL script (database/online_voting.sql) to set up the necessary tables and dummy data.
+- Import the provided SQL script (database/online_voting.sql) to set up the necessary tables and dummy data.
 
 4. Configure Database Connection:
 
--Update the database connection details in the dbconfig.jsp file (e.g., username, password, database name).
+- Update the database connection details in the dbconfig.jsp file (e.g., username, password, database name).
 
 5. Run the Application:
 
--Right-click on the project in Eclipse.
+- Right-click on the project in Eclipse.
 
--Select Run As > Run on Server.
+- Select Run As > Run on Server.
 
--Open your browser and navigate to http://localhost:8080/online-voting.
+- Open your browser and navigate to http://localhost:8080/online-voting.
 
-##Application Workflow
+## Application Workflow
 
-##Home Page:
+## Home Page:
 
--Users can navigate to either the Vote Now or Results page.
+- Users can navigate to either the Vote Now or Results page.
 
-##Vote Now:
+## Vote Now:
 
--Users select a candidate and submit their vote.
+- Users select a candidate and submit their vote.
 
--Upon successful voting, a confirmation page is displayed.
+- Upon successful voting, a confirmation page is displayed.
 
-##Results:
+## Results:
+ 
+- Users can view the voting results.
 
--Users can view the voting results.
+- Displays the total votes for each candidate and highlights the leading candidate.
 
--Displays the total votes for each candidate and highlights the leading candidate.
+# Screenshots and Demo
 
-#Screenshots and Demo
-
-##Home Page
+## Home Page
 ![index_page](https://github.com/user-attachments/assets/16719c9f-99bc-4f22-b19e-1ea05da5cda3)
 
 
 
-##Vote Now Page
+## Vote Now Page
 
 ![vote_page2](https://github.com/user-attachments/assets/667d83eb-62e0-4ffb-ab3a-205dc0760172)
 
 ![vote jsp](https://github.com/user-attachments/assets/a3ffb3b5-7e10-4265-87eb-c4cab59a05c8)
 
-##Success Page
+## Success Page
 
 
 ![success_page](https://github.com/user-attachments/assets/e8ea751b-0036-43e6-aba7-2b26c46e2a47)
 
-##Results Page
+## Results Page
 
 
 ![result_page](https://github.com/user-attachments/assets/274777ea-7c74-4ce1-89df-5a1b9742a771)
 
-##Demo Video
+## Demo Video
 
 
 
@@ -115,12 +115,12 @@ https://github.com/user-attachments/assets/f5fcace2-fe9d-4850-adde-09304985f9ef
 
 
 
-##Note: Replace the dummy images and video link with actual content as needed.
+## Note: Replace the dummy images and video link with actual content as needed.
 
-##Contribution
+## Contribution
 
--Feel free to fork this repository and make enhancements. If you have suggestions or find any bugs, please open an issue or submit a pull request.
+- Feel free to fork this repository and make enhancements. If you have suggestions or find any bugs, please open an issue or submit a pull request.
 
 
-##Author: Prince
--Thank you for exploring the Online Voting System!
+## Author: Prince
+- Thank you for exploring the Online Voting System!
