@@ -1,123 +1,113 @@
-Online Voting System
+# Online Voting System
 
-Project Overview
+## Project Overview
 
-The Online Voting System is a web application designed using JSP (Java Server Pages) and MySQL database, developed within the Eclipse IDE. The application provides a user-friendly platform for voting and viewing results in a structured and efficient manner.
+The **Online Voting System** is a web application designed using **JSP (Java Server Pages)** and **MySQL database**, developed within the **Eclipse IDE**. The application provides a user-friendly platform for voting and viewing results in a structured and efficient manner.
 
-Features
+## Features
 
-Home Page:
+### Home Page
+- The landing page of the application.
+- Contains two main buttons: **Vote Now** and **Results**.
 
-The landing page of the application.
+### Vote Now
+- Allows users to cast their vote by selecting a candidate from the available options.
+- Upon voting, the system redirects the user to a success page confirming that their vote has been registered.
 
-Contains two main buttons: Vote Now and Results.
+### Results Page
+- Displays the results of the voting process.
+- Shows the total votes received by each candidate, highlighting the winner.
 
-Vote Now:
+## Technology Stack
 
-Allows users to cast their vote by selecting a candidate from the available options.
+- **Frontend**: JSP, HTML, CSS
+- **Backend**: Java (JSP), MySQL
+- **Development Environment**: Eclipse IDE
 
-Upon voting, the system redirects the user to a success page confirming that their vote has been registered.
+## Installation Guide
 
-Results Page:
+### Prerequisites
+- Eclipse IDE installed with Java support.
+- MySQL server set up and running.
+- A web browser to access the application.
 
-Displays the results of the voting process.
+### Steps to Set Up
 
-Shows the total votes received by each candidate, highlighting the winner.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/online-voting-system.git
 
-Technology Stack
 
-Frontend: JSP, HTML, CSS
+2. Import Project:
 
-Backend: Java (JSP), MySQL
+-Open Eclipse IDE.
 
-Development Environment: Eclipse IDE
+-Go to File > Import > Existing Projects into Workspace.
 
-Installation Guide
+-Select the cloned repository folder.
 
-Prerequisites
+3. Database Setup:
 
-Eclipse IDE installed with Java support.
+-Open MySQL Workbench or any database client.
 
-MySQL server set up and running.
+-Create a database (e.g., online_voting).
 
-A web browser to access the application.
+-Import the provided SQL script (database/online_voting.sql) to set up the necessary tables and dummy data.
 
-Steps to Set Up
+4. Configure Database Connection:
 
-Clone the Repository:
+-Update the database connection details in the dbconfig.jsp file (e.g., username, password, database name).
 
-git clone https://github.com/yourusername/online-voting-system.git
+5. Run the Application:
 
-Import Project:
+-Right-click on the project in Eclipse.
 
-Open Eclipse IDE.
+-Select Run As > Run on Server.
 
-Go to File > Import > Existing Projects into Workspace.
+-Open your browser and navigate to http://localhost:8080/online-voting.
 
-Select the cloned repository folder.
+##Application Workflow
 
-Database Setup:
+##Home Page:
 
-Open MySQL Workbench or any database client.
+-Users can navigate to either the Vote Now or Results page.
 
-Create a database (e.g., online_voting).
+##Vote Now:
 
-Import the provided SQL script (database/online_voting.sql) to set up the necessary tables and dummy data.
+-Users select a candidate and submit their vote.
 
-Configure Database Connection:
+-Upon successful voting, a confirmation page is displayed.
 
-Update the database connection details in the dbconfig.jsp file (e.g., username, password, database name).
+##Results:
 
-Run the Application:
+-Users can view the voting results.
 
-Right-click on the project in Eclipse.
+-Displays the total votes for each candidate and highlights the leading candidate.
 
-Select Run As > Run on Server.
+#Screenshots and Demo
 
-Open your browser and navigate to http://localhost:8080/online-voting.
-
-Application Workflow
-
-Home Page:
-
-Users can navigate to either the Vote Now or Results page.
-
-Vote Now:
-
-Users select a candidate and submit their vote.
-
-Upon successful voting, a confirmation page is displayed.
-
-Results:
-
-Users can view the voting results.
-
-Displays the total votes for each candidate and highlights the leading candidate.
-
-Screenshots and Demo
-
-Home Page
+##Home Page
 ![index_page](https://github.com/user-attachments/assets/16719c9f-99bc-4f22-b19e-1ea05da5cda3)
 
 
 
-Vote Now Page
+##Vote Now Page
 
 ![vote_page2](https://github.com/user-attachments/assets/667d83eb-62e0-4ffb-ab3a-205dc0760172)
 
 ![vote jsp](https://github.com/user-attachments/assets/a3ffb3b5-7e10-4265-87eb-c4cab59a05c8)
 
-Success Page
+##Success Page
 
 
 ![success_page](https://github.com/user-attachments/assets/e8ea751b-0036-43e6-aba7-2b26c46e2a47)
 
-Results Page
+##Results Page
 
 
 ![result_page](https://github.com/user-attachments/assets/274777ea-7c74-4ce1-89df-5a1b9742a771)
 
-Demo Video
+##Demo Video
 
 
 
@@ -125,14 +115,12 @@ https://github.com/user-attachments/assets/f5fcace2-fe9d-4850-adde-09304985f9ef
 
 
 
-Note: Replace the dummy images and video link with actual content as needed.
+##Note: Replace the dummy images and video link with actual content as needed.
 
-Contribution
+##Contribution
 
-Feel free to fork this repository and make enhancements. If you have suggestions or find any bugs, please open an issue or submit a pull request.
+-Feel free to fork this repository and make enhancements. If you have suggestions or find any bugs, please open an issue or submit a pull request.
 
-License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Author: PrinceThank you for exploring the Online Voting System!
+##Author: Prince
+-Thank you for exploring the Online Voting System!
