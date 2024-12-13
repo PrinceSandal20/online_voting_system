@@ -35,7 +35,7 @@ The **Online Voting System** is a web application designed using **JSP (Java Ser
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/online-voting-system.git
+   git clone https://github.com/PrinceSandal20/online_voting_system.git
 
 
 2. Import Project:
