@@ -38,7 +38,7 @@ The **Online Voting System** is a web application designed using **JSP (Java Ser
    git clone https://github.com/PrinceSandal20/online_voting_system.git
 
 
-2. Import Project:
+2. **Import Project**
 
 - Open Eclipse IDE.
 
@@ -46,7 +46,7 @@ The **Online Voting System** is a web application designed using **JSP (Java Ser
 
 - Select the cloned repository folder.
 
-3. Database Setup:
+3. **Database Setup**
 
 - Open MySQL Workbench or any database client.
 
@@ -54,11 +54,11 @@ The **Online Voting System** is a web application designed using **JSP (Java Ser
 
 - Import the provided SQL script (database/online_voting.sql) to set up the necessary tables and dummy data.
 
-4. Configure Database Connection:
+4. **Configure Database Connection**
 
 - Update the database connection details in the dbconfig.jsp file (e.g., username, password, database name).
 
-5. Run the Application:
+5. **Run the Application**
 
 - Right-click on the project in Eclipse.
 
